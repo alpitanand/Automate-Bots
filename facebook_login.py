@@ -5,8 +5,8 @@ browser.get('http://www.facebook.com')
 emailElem = browser.find_element_by_id('email')
 passElem = browser.find_element_by_id('pass')
 submitIt = browser.find_element_by_id('u_0_r')
-email_id = 'alpit_anand@yahoo.co.in'
-password = 'Alpit@123'
+email_id = '**********************'
+password = '***********'
 status = 'Hie all'
 emailElem.send_keys(email_id)
 passElem.send_keys(password)
